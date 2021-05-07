@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col s12 m6">
+      <div class="card cyan darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Demo 2: Two way Binding</span>
+          <p>Ma propriétés maVar 1 est {{maVar1}}.</p>
+          <p>Ma propriétés maVar 2 est {{maVar2}}.</p>
+          <p>Ma propriétés maVar 3 est {{maVar3}}.</p>
+          <hr>
+          <input type="text"  placeholder=" Ma prop1" [(ngModel)]="maVar1">
+          <input type="number" placeholder="Ma prop2"[(ngModel)]="maVar2">
+          <label>
+            <input type="checkbox" [(ngModel)]="maVar3" />
+            <span> Ma prop3</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
